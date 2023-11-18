@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!----	
+  Author: Marjorie K Gordon 
+  DATE 11/17/2023
+  DESCRIPTION: This is ISM6225 Assignment 2
+-->
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="../img/logo.ico">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/about.css">
+  <script src="../js/about.js"></script>
+</head>
+<body>
+  <!-- Navigation Bar-->
+  <div class = "navbar">
+    <div class = "nav-container">
+      <div class = "nav-items">
+        <a href="../index.html">
+          <img src="../img/logo.png" alt="GPDS" class="logo-img">
+        </a>
+        <ul class = "nav-menu">
+           <li><a href="../index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>           
+        </ul>
+      </div>
+    </div>
+  </div>
+
+   <!-- MAIN PAGE SECTION--> 
+  <div class="about-banner-img">
+    <div class="about-banner">
+      <h1>WHAT DOES GPDS DO?</h1>
+      <h2>GPDS helps grocery consumers understand the rising grocery costs and helps consumers make the economical grocery decision to feed their families.GPDS uses group purchasing power to contract savings for you. Our team takes government data on buying trends and uses it to contract prices that are driven by the consumer and not the government.</h2>
+      <h3>First: Take a look at the government data to see the areas we could partner with to have group purchasing pricing in.</h3>
+      <a href="https://www.ers.usda.gov/data-products/food-price-outlook.aspx" </a>
+      <h5>Second: Send GPDS a copy of your latest Grocery List.</h5>
+      <h6>Third: GPDS will send you the amount of discount you can expect in the future if you become a partner with GPDS.<h/6>
+    </div>
+  </div>
+
+ <div class="main team">
+      <h1> Meet the Leadership Team</h1>
+      <p> Our passion-filled team works together with professionalism and ambition - taking ownership of our work to deliver the best possible results.</p>
+      <div class="container-about">
+        <div class="member-card"> 
+            <div class="member"> 
+                <div class="member-front">
+                    <div class="member-img member1"></div>
+                    <div class="member-info">
+                        <h2>Marjorie K. Gordon</h2>
+                        <span class="member-title"></span>Student</span><br>
+                        <span class="member-more">Touch to view more</span>
+                    </div>
+                </div>
+                <div class="member-back">
+                    <div class="member-except">
+                      <p>Born and raised in the United States with the support of a family committed to public service. Marjorie has a passion for helping consumers make wise shopping decisions by using supply chain data. I have an MBA in Supply Chain Management and have worked in different areas of healthcare and manufacturing throughout my career. I am convinced that the power of group purchasing can drive down costs. In my spare time, I enjoy animals and staying active.</p> <br>
+               
+     
+      <div class="values">
+        <div class="values-inner">
+          <img src="../img/About-OurValues.png" alt="Our Cover values: Teamwork, Optimism, Adaptability">
+        </div>
+    </div>
+
+  <div class="main about-press">
+    <h1>How We Do It!</h1>
+    <figure>
+      <a href="../files/Grp10-Assign2-MeetingNotes.pdf" download>
+        <img src="../img/About-report.png" alt="Download what we do">
+      </a>
+    </figure>
+
+    <Span>
+      <a href="../files/Grp10-Assign2-MeetingNotes.pdf" download>Read it here</a>
+    </Span>
+  </div>
+
+  <!-- Footer-->
+  <footer class="footer">
+    <div class="grid-3">
+      <div>
+        <span> &copy; 2023 All rights reserved!</span>
+      </div>
+
+      <div class="footer-company">
+         <a href="../index.html">
+            <img src="../img/logo.png" alt="GPDS" class="logo-img">
+         </a><br>
+          <h> GPDS</h3<br>
+          <p>Helping Consumers Make Sense of Government Data</p>
+      </div>
+
+      <div class="footer-menu">
+        <a href="../index.html">Home</a><br>
+        <a href="services.html">Services</a><br>
+        <a href="about.html">About Us</a><br>
+        <a href="contactus.html">Contact Us</a> 
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!----
+  Author: Marjorie Gordon
+  DATE 11/15/2023 
+  DESCRIPTION: This is ISM6225 Assignment 2
+-->
+<html lang="en">
+
+<head>
+  <ul class = "nav-menu">
+  <li><a href="MKGp2.html">Services</a></li> <!-- Assuming MKGp1.html is the Services page -->
+  <li><a href="MKGp2.html">About Us</a></li> <!-- Assuming MKGp2.html is the About Us page -->
+  <li><a href="MKGp3.html">Contact Us</a></li> <!-- Linking to the Contact Us page -->
+</ul>
+
+  <link rel="stylesheet" href="./css/style.css">  
+  <link rel="icon" type="image/x-icon" href="./img/logo.ico">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+</head>
+<body>
+  <!-- Navigation Bar-->
+  <div class = "navbar">
+    <div class = "nav-container">
+      <div class = "nav-items">
+        <a href="index.html">
+          <img src="img/logo.png" alt="Grocery Price Data Services" class="logo-img">
+        </a>
+        <ul class = "nav-menu">
+            <li><a href="html/services.html">Services</a></li>
+            <li><a href="html/about.html">About the Company Owner</a></li>
+            <li><a href="html/contactus.html">Contact Us</a></li>           
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <section class="main-img">
+    <div class="main-container">
+      <div class="main-inner"  >
+        <div class="main-block">
+          <h4>Are Consumers Really Paying More for Household Groceries?</h4>
+          <p>The Consumer Price Index (CPI), collected and published by the U.S. Bureau of Labor Statistics (BLS), measures price levels for a basket of consumer goods and services. The CPI is the most publicized and widely used measure of consumer price inflation in the U.S. economy. The CPI for food is the component of the all-items CPI measuring changes in U.S. retail food prices. Industry analysts, food market participants, and policymakers closely follow the CPI for food.</p><br>
+          <div class="main-button-container">
+            <a class="main-button" href='html/contactus.html' target="_blank">Contact Us</a><br>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <div class="quote-block">
+       <br><h1>GPDS</h1><br/> <hr> <br>
+       <blockquote>" According to McKinsey’s Consumer Pulse Survey 2023, 66 percent of consumers have sought out less-expensive goods, an increase of four percentage points from 2022."
+       </blockquote>
+       <span>
+        <b class="authors">-  Bill Aull, Prabh Gill, Dymfke Kuijpers, Nancy Lu, Eric Marohn, and Griffin McLaughlin,</b>
+             </span>
+  </div>
+  
+  <!-- Footer-->
+  <footer class="footer">
+    <div class="grid-3">
+      <div>
+        <span> &copy; 2022 All rights reserved!</span>
+      </div>
+
+      <div class="footer-company">
+         <a href="index.html">
+            <img src="img/logo.png" alt="GPDS, Inc." class="logo-img">
+         </a><br>
+          <h> G</h3<br>
+          <p>Insights for measureable performance improvements.</p>
+      </div>
+
+      <div class="footer-menu">
+        <a href="index.html">Home</a><br>
+        <a href="html/services.html">Services</a><br>
+        <a href="html/about.html">About Us</a><br>
+        <a href="html/contactus.html">Contact Us</a> 
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
